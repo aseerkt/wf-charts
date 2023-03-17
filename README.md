@@ -9,7 +9,9 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-helm repo add <alias> https://<orgname>.github.io/helm-charts
+```bash
+helm repo add wf-charts https://aseerkt.github.io/helm-charts
+```
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages. You can then run `helm search repo
@@ -17,8 +19,12 @@ the latest versions of the packages. You can then run `helm search repo
 
 To install the <chart-name> chart:
 
-    helm install my-<chart-name> <alias>/<chart-name>
+```bash
+helm install my-<chart-name> wf-charts/<chart-name>
+```
 
 To uninstall the chart:
 
-    helm delete my-<chart-name>
+```bash
+helm delete my-<chart-name>
+```
