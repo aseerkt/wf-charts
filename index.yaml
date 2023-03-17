@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  wf-2048:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-17T09:21:05.658987+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 27b7b4066213f09bf8e284202423caa520d7aca58b2999ea1468c47af13ff65a
+    icon: https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-2048-icon.png
+    name: wf-2048
+    type: application
+    urls:
+    - https://mattiaperi.github.io/helm-chart/wf-2048-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-03-17T09:21:05.657277+05:30"

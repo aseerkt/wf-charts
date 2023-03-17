@@ -1,6 +1,7 @@
 apiVersion: v2
 name: "wf-2048"
 description: A Helm chart for Kubernetes
+icon: https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-2048-icon.png
 
 # A chart can be either an 'application' or a 'library' chart.
 #
