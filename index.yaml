@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  wf-2048:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-17T07:07:59.967631294Z"
+    description: Helm chart for 2048 game
+    digest: c68f44ce6cef5a64602da9e100819cc130af3165bd3d87a508e99d01f489fe8b
+    icon: https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-2048-icon.png
+    name: wf-2048
+    type: application
+    urls:
+    - https://github.com/aseerkt/wf-charts/releases/download/wf-2048-0.1.0/wf-2048-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-03-17T07:07:59.967692799Z"
